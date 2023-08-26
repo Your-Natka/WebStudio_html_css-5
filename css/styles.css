@@ -703,7 +703,6 @@ footer {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
@@ -752,7 +751,7 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
@@ -855,6 +854,7 @@ background-color: #404bbf;
 .modal-btn:focus { 
   background-color: #404bbf;
   border: none;
+  fill: var(--#F4F4FD);
   fill: black;
 }
 .privacy-link {
@@ -867,6 +867,7 @@ background-color: #404bbf;
 
 .checkbox:checked ~ label.modal-form-agreement svg.form-icon {
   visibility: visible;
+  background-color: #404bbf;
 }
 
 .modal-form-checkb {
