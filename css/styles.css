@@ -763,11 +763,10 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 .form-comment:focus {
   border-color: #4D5AE5;
 }
-.modal-form-label::placeholder { 
-  font-family: Roboto;
-  font-size: 12px;
-  color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+.form-comment::placeholder { 
+ color: currentColor;
 }
+
 .modal-agreement {
  margin-bottom: 24px;
 }
