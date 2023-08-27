@@ -797,6 +797,11 @@ footer {
   border: none;
   fill: #F4F4FD;
 }
+.checkbox:focus + .form-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
 .privacy-link {
   color: #4D5AE5;
 }
@@ -844,10 +849,6 @@ footer {
 visibility: hidden;
 }
 
-/*.checkbox-text {
-  display: inline-block;
-  margin-left: 5px;
-}*/
 .policy-color {
 width: 16px;
 height: 16px;
