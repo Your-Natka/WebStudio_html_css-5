@@ -788,7 +788,7 @@ footer {
 .modal-form-agreement {
   display: block;
 }
-.checkbox:checked + .form-icon {
+.checkbox:checked + .modal-form-agreement > .policy-color {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
