@@ -95,7 +95,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .studio-color {
@@ -218,11 +218,7 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-.main-section,
-.main-title {
-    margin-right: auto;
-    margin-left: auto;
-  }
+
 .main-title {  
   margin-bottom: 48px;
   text-align: center;
@@ -301,6 +297,7 @@ button {
   width: 264px;
   height: 112px;
   border-radius: 4px;
+  margin-bottom: 8px;
   background: var(--cloud, #F4F4FD);
 }
 .sub-title {
@@ -309,7 +306,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 .main-paragraph {
