@@ -787,6 +787,10 @@ footer {
 
 .modal-form-agreement {
   display: block;
+  font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
 .checkbox:checked + .modal-form-agreement > .policy-color {
   background-color: #404bbf;
@@ -795,12 +799,6 @@ footer {
 }
 .privacy-link {
   color: #4D5AE5;
-}
-.checkbox-icon {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
 }
 
 .modal-form-btn {
