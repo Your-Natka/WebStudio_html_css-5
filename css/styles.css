@@ -724,10 +724,8 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 
-.modal-form-input:focus::placeholder {
-  opacity: 1;
-  transition: opasity var(--animation) 0ms;
-  transition-delay: 250s;
+.modal-form-input:focus + .modal-form-icon {
+  fill: #4D5AE5;
 }
 
 .modal-form-icon {
