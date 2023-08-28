@@ -877,6 +877,7 @@ background-color: #404bbf;
   line-height: 1.17;
   color: var(--iris, #4D5AE5);
   text-decoration-line: underline;
+  margin-left: 4px;
 }
 
 .checkbox:checked ~ label.modal-form-agreement svg.form-icon {
