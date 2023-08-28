@@ -223,6 +223,7 @@ header {
   margin: auto;
 }
 .main-title {  
+  margin: 0 auto 48px auto;
   text-align: center;
   font-weight: 700;
   font-size: 56px;
@@ -231,7 +232,6 @@ header {
   letter-spacing: 0.02em;
   color: var(--white); 
   max-width: 496px;
-  margin-bottom: 48px;
 }
 button {
   border: none;
@@ -637,6 +637,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill:  var(--navy-blue);
   cursor: pointer;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.10);
@@ -646,7 +647,6 @@ footer {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  fill: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
@@ -656,7 +656,6 @@ footer {
   fill: #ffffff;
 }
 .modal-btn:focus {
-  background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
@@ -727,10 +726,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   stroke: var(--accent-cl);
 }
 
-.modal-form-input::placeholder {
-  opacity: 0;
-  color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-}
+
 
 .modal-form-input:focus + .modal-form-icon {
   fill: #4D5AE5;
@@ -774,9 +770,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
  color: currentColor;
 }
 
-.modal-agreement {
- margin-bottom: 24px;
-}
+
 .modal-form-checkb {
   text-decoration: none;
     display: inline-block;
@@ -795,11 +789,13 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-agreement {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin: 0 auto 24px auto;
 }
 .checkbox:checked + .modal-form-agreement > .policy-color {
   background-color: #404bbf;
@@ -819,8 +815,8 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
-  line-height: 1, 5;
-  letter-spacing: 0, 04em;
+  line-height: 1,5;
+  letter-spacing: 0,04em;
   color: var(--white, #FFF);
   text-align: center;
   display: block;
