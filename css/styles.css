@@ -218,12 +218,11 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-.main-section .main-title {
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+.main-section, 
+.main-title {
+  margin: auto;
 }
 .main-title {  
-  margin-bottom: 48px;
   text-align: center;
   font-weight: 700;
   font-size: 56px;
@@ -232,6 +231,7 @@ header {
   letter-spacing: 0.02em;
   color: var(--white); 
   max-width: 496px;
+  margin-bottom: 48px;
 }
 button {
   border: none;
@@ -691,6 +691,13 @@ footer {
   margin-bottom: 8px;
   position: relative;
   border-radius: 4px; 
+
+  outline: transparent;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0.04em;
+  letter-spacing: 1.17;
 }
 
 .modal-form-user {
