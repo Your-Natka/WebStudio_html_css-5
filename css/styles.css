@@ -394,7 +394,6 @@ button {
 .list-five {
   display: flex;
   gap: 24px;
-  fill: currentColor;
 }
 .icon-customers {
   display: flex;
@@ -556,7 +555,6 @@ footer {
   border-radius: 4px;
   background: var(--iris, #4D5AE5);
   color: var(--white, #FFF);
-  font-weight: 500px;
   line-height: 24px;
   letter-spacing: 0.04em;
 }
