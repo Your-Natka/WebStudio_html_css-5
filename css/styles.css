@@ -235,7 +235,6 @@ button {
   border: none;
   cursor: pointer;
   justify-content: flex-start;
-  gap: 24px;
   display: flex;
   list-style: none;
 }
@@ -623,7 +622,9 @@ footer {
 .modal-btn:focus {
   background-color: #404bbf;
 }
-
+.modal-btn:hover {
+  background-color: #404bbf;
+}
 .modal-btn:hover .modal-btn-icon {
   fill: var(--cloud);
 }
