@@ -553,7 +553,6 @@ footer {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: var(--iris, #4D5AE5);
   color: var(--white, #FFF);
@@ -671,7 +670,6 @@ footer {
 }
 
 .modal-form-user {
-  margin-bottom: 24px;
   position: relative;
   border-radius: 4px;
   border: 1px solid var(--#8e8f99);
@@ -777,9 +775,6 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   border: none;
   fill: #F4F4FD;
 }
-.privacy-link {
-  color: #4D5AE5;
-}
 
 .modal-form-btn {
   margin-left: auto;
@@ -849,7 +844,6 @@ background-color: #404bbf;
   fill: black;
 }
 .privacy-link {
-  display: block;
   font-size: 12px;
   line-height: 1.17;
   color: var(--iris, #4D5AE5);
